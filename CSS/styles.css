@@ -1,0 +1,70 @@
+body{
+    background-color: #181717;
+}
+.container{
+    display: flex;
+    margin-top: 200px;
+    
+}
+.image_container{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+.about_container{
+    flex:1;
+    width: 300px;
+    padding-top: 50px;
+    font-family: Verdana;
+    text-align: center;
+   
+ 
+}
+.me{
+    width: 300px;
+    border-radius: 50%;
+    
+    
+}
+.hello{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    color: aquamarine;
+}
+.stack{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+.cv{
+    color: white ;
+    font-weight: bold;
+    background-color: #04BFAD;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.cv:hover{
+    opacity: 0.8;
+}
+.contact{
+    color: white ;
+    font-weight: bold;
+    background-color: #bfb304;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.contact:hover{
+    opacity: 0.8;
+}
