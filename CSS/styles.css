@@ -1,16 +1,73 @@
+
 body{
-    background-color: #181717;
+    background-color: #515e51;
+    flex: content;
+    display: grid;
+    
+}
+.navbar{
+    background-color: rgba(255, 255, 255, .20);  
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+.navbarcontents{
+    flex: content;
+    display: flex;
+    justify-content: center;
+}
+
+._name{
+   
+    background-color: #393b3b;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 5px;
+    background-color: rgba(8, 8, 8, 0.50);
+}
+._about{
+    background-color: #393b3b;
+    padding: 15px;
+    border-radius: 15px;
+    /*margin-left: 350px;*/
+    margin-right: 5px;
+    background-color: rgba(8, 8, 8, 0.50);
+}
+._projects{
+    background-color: #393b3b;
+    padding: 15px;
+    border-radius: 15px;
+    /*margin-left: 20px;
+    margin-right: 5px;*/
+    background-color: rgba(8, 8, 8, 0.50);
+}
+._contact{
+    background-color: #393b3b;
+    padding: 15px;
+    border-radius: 15px;
+    /*margin-left: 20px;
+    margin-right: 5px;*/
+    background-color: rgba(8, 8, 8, 0.50);
 }
 .container{
     display: flex;
-    margin-top: 200px;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .20);  
+    backdrop-filter: blur(10px);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
     
 }
 .image_container{
     flex: 1;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+   
     
 }
 .about_container{
@@ -52,6 +109,7 @@ body{
     padding: 15px;
     border-radius: 15px;
     margin-right: 10px;
+    
 }
 .cv:hover{
     opacity: 0.8;
