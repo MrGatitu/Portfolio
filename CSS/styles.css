@@ -36,6 +36,7 @@ body{
     /*margin-left: 350px;*/
     margin-right: 5px;
     background-color: rgba(8, 8, 8, 0.50);
+    cursor: pointer;
 }
 ._projects{
     background-color: #393b3b;
@@ -44,6 +45,7 @@ body{
     /*margin-left: 20px;
     margin-right: 5px;*/
     background-color: rgba(8, 8, 8, 0.50);
+    cursor: pointer;
 }
 ._contact{
     background-color: #393b3b;
@@ -52,6 +54,7 @@ body{
     /*margin-left: 20px;
     margin-right: 5px;*/
     background-color: rgba(8, 8, 8, 0.50);
+    cursor: pointer;
 }
 .container{
     display: flex;
@@ -106,7 +109,7 @@ body{
 .cv{
     color: white ;
     font-weight: bold;
-    background-color: #04BFAD;
+    background-color: rgba(64, 248, 239, 0.15);
     border: none;
     padding: 15px;
     border-radius: 15px;
@@ -119,7 +122,7 @@ body{
 .contact{
     color: white ;
     font-weight: bold;
-    background-color: #bfb304;
+    background-color:rgba(162, 248, 64, 0.15);
     border: none;
     padding: 15px;
     border-radius: 15px;
@@ -129,5 +132,13 @@ body{
     opacity: 0.8;
 }
 .icons{
-    padding: 30px;
+    
+    cursor: pointer;
+    margin-top: 10px;
+}
+.twitter{
+    text-decoration: none;
+}
+.Whatsapp{
+    text-decoration: none;
 }
